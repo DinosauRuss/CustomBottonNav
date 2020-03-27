@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <item
+        android:id="@+id/first"
+        android:enabled="true"
+        android:icon="@drawable/ic_up"
+        android:title="1st"
+        app:showAsAction="ifRoom"
+        tools:ignore="HardcodedText" />
+    <item
+        android:id="@+id/second"
+        android:enabled="true"
+        android:icon="@drawable/ic_down"
+        android:title="2nd"
+        app:showAsAction="ifRoom"
+        tools:ignore="HardcodedText" />
+    <item
+        android:enabled="false"
+        android:title=""
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/fourth"
+        android:enabled="true"
+        android:icon="@drawable/ic_left"
+        android:title="4th"
+        app:showAsAction="ifRoom"
+        tools:ignore="HardcodedText" />
+    <item
+        android:id="@+id/fifth"
+        android:enabled="true"
+        android:icon="@drawable/ic_right"
+        android:title="5th"
+        app:showAsAction="ifRoom"
+        tools:ignore="HardcodedText" />
+
+</menu>
